@@ -1,0 +1,180 @@
+.grid-container {
+    background-color: rgb(235, 234, 234);
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+img {
+    width: 30%;
+    height: 10%;
+}
+h1,p {
+    font-size: 1rem;
+}
+.target {
+    border-radius: 1rem;
+    margin: 1.5rem;
+}
+
+.pequeño {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grande {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.a {
+    background-color: hsl(31, 66%, 93%);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: black;
+    margin: 0;
+}
+
+.a span {
+    color: hsl(256, 67%, 59%);
+}
+.a img {
+    height: 3rem;
+}
+
+.b {
+    background-color: hsl(39, 100%, 71%);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 3.5rem;
+}
+
+
+.c {
+    background-color: hsl(256, 67%, 59%);
+    grid-column: span 2;
+    font-family: "DM Sans", sans-serif;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    
+}
+
+.c span {
+    color: hsl(39, 100%, 71%);
+}
+
+.c h1 {
+    padding-top: 3rem;
+    margin: 0;
+    font-size: 3rem
+}
+.c h2{
+    font-size: 3rem;
+    margin: 0;
+line-height: 1rem;
+
+}
+.c p {
+    font-size: 18px;
+   
+}
+.stars {
+    height: 4rem;
+}
+
+
+.d {
+    background-color: hsl(254, 88%, 90%);
+    grid-column: 3/4;
+    grid-row: 1/3;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.d img {
+    position: relative;
+    left: 7.3rem;
+    width: 10rem;
+    height: 10rem;
+} 
+
+.e {
+    background-color: hsl(0, 0%, 100%);
+    grid-row: 2;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.e img {
+    position: relative;
+    left: 5rem;
+}
+
+.f {
+    background-color: hsl(39, 100%, 71%);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.f img {
+    position: relative;
+    top: 15rem;
+
+}
+
+.g {
+    background-color: hsl(0, 0%, 100%);
+      font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 4rem
+}
+
+
+.h {
+    background-color: hsl(256, 67%, 59%);
+    grid-column: span 2;
+      font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
+    font-size: 3rem;
+    display: flex;
+}
